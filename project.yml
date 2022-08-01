@@ -15,3 +15,4 @@ packages:
         environment: {}
         annotations: {}
         limits: {}
+LOG_DESTINATIONS: ${_self.FUNCTIONS_LOG_DESTINATION_JSON}
