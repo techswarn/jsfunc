@@ -6,8 +6,8 @@ function main(args) {
 
    // const body = JSON.parse(args.__ow_body);
     
-  //  let name = body?.name || 'stranger'
-    let greeting = 'Hello ' + ' there' + '!'
+    let name = body?.name || 'stranger'
+    let greeting = 'Hello ' + name + '!'
     return {"body": greeting}
   }
 // The function's dependencies.
