@@ -6,7 +6,7 @@ packages:
     parameters: {}
     annotations: {}
     actions:
-      - name: hello
+      - name: func
         binary: false
         main: ""
         runtime: "nodejs:default"
@@ -14,4 +14,6 @@ packages:
         parameters: {}
         environment: {}
         annotations: {}
-        limits: {}
+        limits:
+          memory: 1024
+          timeout: 120000
