@@ -5,8 +5,8 @@
     "packageVersions": {},
     "actionVersions": {
       "sample/func": {
-        "digest": "af4afbe4d368a8b72b90c83fb2dbd83a783e41bb507c69e40160a5a35de45a5a",
-        "version": "0.0.26"
+        "digest": "4c5278504a57183a64f6baec755d29f72ad5962492e6ad77da5b69304ef2eb22",
+        "version": "0.0.41"
       }
     },
     "webHashes": {}
