@@ -1,19 +1,26 @@
 targetNamespace: ""
 parameters: {}
 packages:
-  - name: sample
+  - name: users
     environment: {}
     parameters: {}
     annotations: {}
     actions:
-      - name: func
+      - name: createUser
         binary: false
         main: ""
         runtime: "nodejs:default"
-        web: raw
+        web: true
         parameters: {}
         environment: {}
         annotations: {}
         limits:
           memory: 1024
           timeout: 120000
+
+environment:
+  DATABASE: ${DATABASE}
+  DATABASE_PASSWORD: ${DATABASE_PASSWORD}
+
+
+
