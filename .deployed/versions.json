@@ -5,8 +5,8 @@
     "packageVersions": {},
     "actionVersions": {
       "users/createUser": {
-        "digest": "3ca24d00926d55cd40b8a5ed7be3e945539bbd8312bac9a6540517a3afeb68dd",
-        "version": "0.0.1"
+        "digest": "c9703f5da23c91f844ccdeeff115fbdd11a946484893802d8e488f20b8cac824",
+        "version": "0.0.7"
       }
     },
     "webHashes": {}

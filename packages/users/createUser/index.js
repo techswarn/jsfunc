@@ -3,6 +3,7 @@ const mongoose = require('mongoose');
 
 
 const dbConnect = require("./db")
+// require("./db")
 console.log(name)
 
 dbConnect()
