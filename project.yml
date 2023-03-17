@@ -10,7 +10,7 @@ packages:
         binary: false
         main: ""
         runtime: "nodejs:default"
-        web: true
+        web: raw
         parameters: {}
         environment: {}
         annotations: {}
