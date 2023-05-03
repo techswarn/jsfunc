@@ -1,6 +1,6 @@
 const name = require("./name")
 const mongoose = require('mongoose');
-const sqlite3 = require("sqlite3")
+// const sqlite3 = require("sqlite3")
 
 
 const dbConnect = require("./db")
@@ -16,15 +16,15 @@ const PersonSchema = new mongoose.Schema({
 const Person = mongoose.model('Person', PersonSchema);
 
 
-const connectSqlite = async () => {
-  const db = await sqlite3.open({
-    filename: '/tmp/database.db',
-    driver: sqlite3.Database
-  })
-  console.log(db)
-}
+// const connectSqlite = async () => {
+//   const db = await sqlite3.open({
+//     filename: '/tmp/database.db',
+//     driver: sqlite3.Database
+//   })
+//   console.log(db)
+// }
 
-connectSqlite()
+// connectSqlite()
 
 async function main(args) {
     console.log('-----------Logging values-----')
