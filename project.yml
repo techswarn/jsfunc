@@ -11,15 +11,6 @@ packages:
         main: ""
         runtime: "nodejs:default"
         web: raw
-        triggers:
-          - name: trigger-hello
-            sourceType: scheduler
-            sourceDetails:
-              cron: "* * * * *"
-          - name: "daily-trigger"
-            sourceType: scheduler
-            sourceDetails:
-              cron: "0 21 * * *"
         parameters: {}
         environment: {}
         annotations: {}
