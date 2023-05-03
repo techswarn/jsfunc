@@ -1,7 +1,10 @@
 const name = require("./name")
 const mongoose = require('mongoose');
 // const sqlite3 = require("sqlite3")
-console.log(LOG_DESTINATIONS)
+const dotenv = require("dotenv")
+
+dotenv.config({path: './../config.env'})
+console.log(process.env.LOG_DESTINATIONS)
 const dbConnect = require("./db")
 // require("./db")
 console.log(name)
