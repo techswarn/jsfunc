@@ -11,6 +11,15 @@ packages:
         main: ""
         runtime: "nodejs:default"
         web: raw
+        triggers:
+          - name: trigger-hello
+            sourceType: scheduler
+            sourceDetails:
+              cron: "* * * * *"
+          - name: "daily-trigger"
+            sourceType: scheduler
+            sourceDetails:
+              cron: "0 21 * * *"
         parameters: {}
         environment: {}
         annotations: {}
@@ -21,7 +30,6 @@ packages:
 environment:
   DATABASE: ${DATABASE}
   DATABASE_PASSWORD: ${DATABASE_PASSWORD}
-  LOG_DESTINATIONS: ${LOG_DESTINATIONS}
 
 
 
