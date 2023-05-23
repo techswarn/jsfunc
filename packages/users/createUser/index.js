@@ -1,10 +1,12 @@
 const name = require("./name")
 const mongoose = require('mongoose');
-// const sqlite3 = require("sqlite3")
+const { BinaryReader } = require('@protobuf-ts/runtime')
+
 const dotenv = require("dotenv")
 
 dotenv.config({path: './../config.env'})
 console.log(process.env.LOG_DESTINATIONS)
+
 const dbConnect = require("./db")
 // require("./db")
 console.log(name)
@@ -17,23 +19,15 @@ const PersonSchema = new mongoose.Schema({
 
 const Person = mongoose.model('Person', PersonSchema);
 
-
-// const connectSqlite = async () => {
-//   const db = await sqlite3.open({
-//     filename: '/tmp/database.db',
-//     driver: sqlite3.Database
-//   })
-//   console.log(db)
-// }
-
-// connectSqlite()
-
 async function main(args) {
     console.log('-----------Logging values-----')
     console.log(args?.__ow_body);
     console.log(args?.__ow_headers);
     console.log(args?.__ow_path);
     console.log('-----------Logging values-----')
+    const reader = new BinaryReader(Buffer.from("TEST"));
+    console.log(reader.len);
+
     if(!args?.__ow_body) {
       return  {
         statusCode: 404,
