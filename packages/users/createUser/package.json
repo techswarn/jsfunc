@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "sample function",
   "main": "index.js",
-  "type": "module",
   "dependencies": {
     "@protobuf-ts/runtime": "^2.9.0",
     "lodash": "4.17.21",

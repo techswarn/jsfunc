@@ -2,11 +2,24 @@
   {
     "apihost": "https://faas-blr1-8177d592.doserverless.co",
     "namespace": "fn-0b0f94ea-326e-434f-a6db-e297bf02f150",
-    "packageVersions": {},
+    "packageVersions": {
+      "file": {
+        "version": "0.0.32",
+        "digest": "1613e859064d6342ae8cc6676107c16905d62a223ccca0797f95112b5fe9e342"
+      },
+      "users": {
+        "version": "0.0.75",
+        "digest": "b8f9558cee21dd42abc5d4f751a1d08975165a939ebbc5dcb883bd2a3552e8a4"
+      }
+    },
     "actionVersions": {
+      "file/upload": {
+        "version": "0.0.21",
+        "digest": "3c709f8a9fdddf9d4d85d2e2b31aec4380fb823af2c69b9f14f5d3041fcbc947"
+      },
       "users/createUser": {
-        "digest": "0e2ffcd5ed5379864a0ded741b88d5eb5140906161a5b63489d611617de559df",
-        "version": "0.0.26"
+        "version": "0.0.30",
+        "digest": "3e82db37375a08dc21eb8e88c6714337df348c239b51b2d3e0dd9fe53654c7c6"
       }
     },
     "webHashes": {}

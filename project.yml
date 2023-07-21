@@ -5,11 +5,34 @@ packages:
     environment: {}
     parameters: {}
     annotations: {}
-    actions:
+    functions:
       - name: createUser
         binary: false
         main: ""
-        runtime: "nodejs:default"
+        runtime: "nodejs:18"
+        web: raw
+        triggers:
+          - name: trigger-hello
+            sourceType: scheduler
+            sourceDetails:
+              cron: "* * * * *"
+              withBody:
+                name: "mike"
+        parameters: {}
+        environment: {}
+        annotations: {}
+        limits:
+          memory: 1024
+          timeout: 900000
+  - name: file
+    environment: {}
+    parameters: {}
+    annotations: {}
+    functions:
+      - name: upload
+        binary: false
+        main: ""
+        runtime: "nodejs:18"
         web: raw
         parameters: {}
         environment: {}
