@@ -1,6 +1,22 @@
 targetNamespace: ""
 parameters: {}
 packages:
+  - name: webinvoke
+    environment: {}
+    parameters: {}
+    annotations: {}
+    functions:
+      - name: invoke
+        binary: false
+        main: ""
+        runtime: "nodejs:18"
+        web: raw
+        parameters: {}
+        environment: {}
+        annotations: {}
+        limits:
+          memory: 1024
+          timeout: 900000
   - name: users
     environment: {}
     parameters: {}
@@ -44,7 +60,5 @@ packages:
 environment:
   DATABASE: ${DATABASE}
   DATABASE_PASSWORD: ${DATABASE_PASSWORD}
-  PROPELAUTH_API_KEY: ${PROPELAUTH_API_KEY}
-  PROPELAUTH_URL: ${PROPELAUTH_URL}
-  PROPELAUTH_VERIFIER_KEY: ${PROPELAUTH_VERIFIER_KEY}
-  PROPELAUTH_ISSUER: ${PROPELAUTH_ISSUER}
+  ACCESS_ID: ${ACCESS_ID}
+  ACCESS_SECRET_KEY: ${ACCESS_SECRET_KEY}

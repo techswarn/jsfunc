@@ -4,22 +4,30 @@
     "namespace": "fn-0b0f94ea-326e-434f-a6db-e297bf02f150",
     "packageVersions": {
       "file": {
-        "version": "0.0.32",
+        "version": "0.0.39",
         "digest": "1613e859064d6342ae8cc6676107c16905d62a223ccca0797f95112b5fe9e342"
       },
       "users": {
-        "version": "0.0.75",
+        "version": "0.0.82",
         "digest": "b8f9558cee21dd42abc5d4f751a1d08975165a939ebbc5dcb883bd2a3552e8a4"
+      },
+      "webinvoke": {
+        "version": "0.0.1",
+        "digest": "350ce71b56919afab32ba9aec8c4346b9d8c97b9e2d6ac9c73a51f7a4e71bd15"
       }
     },
     "actionVersions": {
       "file/upload": {
-        "version": "0.0.21",
-        "digest": "3c709f8a9fdddf9d4d85d2e2b31aec4380fb823af2c69b9f14f5d3041fcbc947"
+        "version": "0.0.27",
+        "digest": "9ca8f654e8a2917663135781ffd4a851f5bcadb7219c7adb1ec18e4b37990ce6"
       },
       "users/createUser": {
-        "version": "0.0.30",
-        "digest": "3e82db37375a08dc21eb8e88c6714337df348c239b51b2d3e0dd9fe53654c7c6"
+        "version": "0.0.36",
+        "digest": "0cc194d89a69c97f006254d369d375595ec185d036ab450dbb90c47e10844350"
+      },
+      "webinvoke/invoke": {
+        "version": "0.0.1",
+        "digest": "a52b7cd6a86b3a1b738fd66e4607f2a00a9d5a56e64d49e762f41fd2ff26bcc0"
       }
     },
     "webHashes": {}
