@@ -27,13 +27,6 @@ packages:
         main: ""
         runtime: "nodejs:18"
         web: raw
-        triggers:
-          - name: trigger-hello
-            sourceType: scheduler
-            sourceDetails:
-              cron: "* * * * *"
-              withBody:
-                name: "mike"
         parameters: {}
         environment: {}
         annotations: {}
