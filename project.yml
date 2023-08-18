@@ -9,7 +9,7 @@ packages:
       - name: invoke
         binary: false
         main: ""
-        runtime: "nodejs:18"
+        runtime: "nodejs:default"
         web: raw
         parameters: {}
         environment: {}
@@ -25,7 +25,7 @@ packages:
       - name: createUser
         binary: false
         main: ""
-        runtime: "nodejs:18"
+        runtime: "nodejs:default"
         web: raw
         parameters: {}
         environment: {}
@@ -41,7 +41,7 @@ packages:
       - name: upload
         binary: false
         main: ""
-        runtime: "nodejs:18"
+        runtime: "nodejs:default"
         web: raw
         parameters: {}
         environment: {}
