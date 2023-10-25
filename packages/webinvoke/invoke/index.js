@@ -3,7 +3,14 @@ async function main(event, context) {
   console.log(context);
 
   return {
-    body: "webinvoke",
+    body: {
+      name: "Swan",
+      email: "admin@swarn.com",
+    },
+    statusCode: 201,
+    headers: {
+      "access-control-allow-origin:": "https://developer.mozilla.org",
+    },
   };
 }
 

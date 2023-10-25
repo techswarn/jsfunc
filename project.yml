@@ -49,9 +49,26 @@ packages:
         limits:
           memory: 1024
           timeout: 900000
+  - name: dbconnect
+    environment: {}
+    parameters: {}
+    annotations: {}
+    functions:
+      - name: redisconnect
+        binary: false
+        main: ""
+        runtime: "nodejs:default"
+        web: raw
+        parameters: {}
+        environment: {}
+        annotations: {}
+        limits:
+          memory: 1024
+          timeout: 900000
 
 environment:
   DATABASE: ${DATABASE}
   DATABASE_PASSWORD: ${DATABASE_PASSWORD}
   ACCESS_ID: ${ACCESS_ID}
   ACCESS_SECRET_KEY: ${ACCESS_SECRET_KEY}
+  REDIS_URL: ${REDIS_URL}
