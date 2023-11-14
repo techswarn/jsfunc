@@ -5,7 +5,7 @@ async function main(event, context) {
   return {
     body: {
       name: "Swan",
-      email: "admin@swarn.com",
+      email: "admin@swarn1.com",
     },
     statusCode: 201,
     headers: {
