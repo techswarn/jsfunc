@@ -4,26 +4,26 @@
     "namespace": "fn-0b0f94ea-326e-434f-a6db-e297bf02f150",
     "packageVersions": {
       "webinvoke": {
-        "version": "0.0.22",
+        "version": "0.0.25",
         "digest": "86ff2176bb20295ccff18a4e10d3b95b8ceda618369133845606bcac6a8b3c84"
       }
     },
     "actionVersions": {
       "dbconnect/redisconnect": {
-        "digest": "6a87f14eb2088db36211ec1bf88325d08d0b86323b384038e68c0e9f42a4091a",
-        "version": "0.0.6"
+        "digest": "6085641c7c4c957378875af3ccb61f3b144698c667c86cccba5965380220825c",
+        "version": "0.0.9"
       },
       "file/upload": {
-        "digest": "51d25ee76644264080453b7d9d5369e86efd7698b1d935daff41a017843684e0",
-        "version": "0.0.44"
+        "digest": "fef7462bf28af87f405b93cec002afdf91a6270126941301c6f1fc6d46d70f83",
+        "version": "0.0.47"
       },
       "users/createUser": {
-        "digest": "951cb7b58336df2b14438ceea62950c69b8e68defea5ccdd2a502e6cd8e6f153",
-        "version": "0.0.55"
+        "digest": "87491100691131357ab2b22e2d37e988effb0003e7e6bcbd648d9bb5a81419fd",
+        "version": "0.0.58"
       },
       "webinvoke/invoke": {
-        "version": "0.0.22",
-        "digest": "54044b8284cc196aa3511102ff81d42b39e894c2d3f89983db8e71d87b4edaa8"
+        "version": "0.0.25",
+        "digest": "9b1da7eaba34833313894a3917a39881bb4099c235b022ef7802029d59f90411"
       }
     },
     "webHashes": {}
