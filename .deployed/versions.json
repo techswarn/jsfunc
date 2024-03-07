@@ -2,28 +2,23 @@
   {
     "apihost": "https://faas-blr1-8177d592.doserverless.co",
     "namespace": "fn-0b0f94ea-326e-434f-a6db-e297bf02f150",
-    "packageVersions": {
-      "webinvoke": {
-        "version": "0.0.25",
-        "digest": "86ff2176bb20295ccff18a4e10d3b95b8ceda618369133845606bcac6a8b3c84"
-      }
-    },
+    "packageVersions": {},
     "actionVersions": {
       "dbconnect/redisconnect": {
-        "digest": "6085641c7c4c957378875af3ccb61f3b144698c667c86cccba5965380220825c",
-        "version": "0.0.9"
+        "digest": "c864f9971d2b9a760e6e02b6126834334fc244142ad8f75fedb32c1040adebfb",
+        "version": "0.0.11"
       },
       "file/upload": {
-        "digest": "fef7462bf28af87f405b93cec002afdf91a6270126941301c6f1fc6d46d70f83",
-        "version": "0.0.47"
+        "digest": "78d378338396ef5bc37b1c6303ce887bb47be62af891e0e915f0d1141a1cb561",
+        "version": "0.0.49"
       },
       "users/createUser": {
-        "digest": "87491100691131357ab2b22e2d37e988effb0003e7e6bcbd648d9bb5a81419fd",
-        "version": "0.0.58"
+        "digest": "0789a43c24f0ed708740c2ff07ce39528803b2851a432e9796332d8ae26dbc2d",
+        "version": "0.0.60"
       },
       "webinvoke/invoke": {
-        "version": "0.0.25",
-        "digest": "9b1da7eaba34833313894a3917a39881bb4099c235b022ef7802029d59f90411"
+        "digest": "b96226d09b2a4ef827d647f074f7552b62907fe2b12350da8b08ce332d781d26",
+        "version": "0.0.27"
       }
     },
     "webHashes": {}

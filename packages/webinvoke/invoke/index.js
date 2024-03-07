@@ -1,3 +1,5 @@
+const sgMail = require("@sendgrid/mail");
+
 async function main(event, context) {
   console.log(event);
   console.log(context);
@@ -8,9 +10,6 @@ async function main(event, context) {
       email: "admin@swarn1.com",
     },
     statusCode: 201,
-    headers: {
-      "access-control-allow-origin:": "https://developer.mozilla.org",
-    },
   };
 }
 
