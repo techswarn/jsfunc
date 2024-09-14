@@ -5,20 +5,16 @@
     "packageVersions": {},
     "actionVersions": {
       "dbconnect/redisconnect": {
-        "digest": "0fb4960ab852ec54369ee8106bcbcd3d0e645e42a5ab1c4f84ecebc16c39d0fc",
-        "version": "0.0.18"
-      },
-      "file/upload": {
-        "digest": "bbe080f7725357ababbcdb6cce3ff517ed219b4adc311580da6fa90b3147396c",
-        "version": "0.0.56"
+        "digest": "4a55b6442fa7b0b476716f8ce7152641e7dbbab678f885c9d97c700c9e759e59",
+        "version": "0.0.22"
       },
       "users/createUser": {
-        "digest": "3468e899566475579d73407bfaff0a3a55b03dcebc5e9ffd17f9acc6c22a54a3",
-        "version": "0.0.67"
+        "digest": "e3c344dd1888f225135fc5e5c990e239486cd7caf6fd56b45263b0c6befe60f4",
+        "version": "0.0.71"
       },
       "webinvoke/invoke": {
-        "digest": "15fd2bad5c95d307ffe9b811428347fd0e086a8f8c99b093237a7c49631ce0fc",
-        "version": "0.0.34"
+        "digest": "00a5c49d1326270805bb2128416d318e91a2db43d2d868c2aabb79b4770202b0",
+        "version": "0.0.39"
       }
     },
     "webHashes": {}

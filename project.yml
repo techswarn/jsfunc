@@ -10,7 +10,8 @@ packages:
         binary: false
         main: ""
         runtime: "nodejs:18"
-        web: raw
+        web: true
+        webSecure: false
         parameters: {}
         environment: {}
         annotations: {}
